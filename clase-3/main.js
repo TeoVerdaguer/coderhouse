@@ -42,3 +42,31 @@ document.getElementById('productos').innerHTML = acumulador;
 for (let i = 0; i < 20; i++) {
     console.log(i);
 }
+
+// --------------------------
+
+// for (let i = 0; i < 20; i++) {
+//     console.log(i);
+// }
+
+let aux = 0;
+
+// while (aux < 20) {
+//   console.log(aux);
+// }
+
+do {
+  aux++;
+//   console.log(aux);
+} while (aux < 20);
+
+switch (aux) {
+    case 20:
+        // alert('El aux es 20');
+        break;
+    case 30:
+        // alert('El aux es 30');
+        break;
+    default:
+        // alert('No encontramos tu numero');
+}
